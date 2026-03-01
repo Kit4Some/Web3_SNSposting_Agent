@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "Web3セキュリティニュースエージェント"
+  },
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "news": "ニュース",
+    "posts": "投稿",
+    "sessions": "セッション",
+    "settings": "設定"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "subtitle": "ニュースと投稿状況の概要",
+    "stats": {
+      "totalNews": "総ニュース数",
+      "unprocessedNews": "未処理",
+      "scheduledPosts": "予約済み",
+      "postedCount": "投稿済み"
+    },
+    "quickActions": "クイックアクション",
+    "collectNews": "ニュース収集",
+    "collectingNews": "収集中...",
+    "createPost": "投稿作成",
+    "recentNews": "最新ニュース",
+    "noNews": "収集されたニュースがありません",
+    "viewAll": "すべて表示"
+  },
+  "news": {
+    "title": "ニュース",
+    "subtitle": "収集されたWeb3セキュリティニュース",
+    "collectAll": "ニュース収集",
+    "collecting": "収集中...",
+    "collectNews": "ニュース収集",
+    "filters": {
+      "all": "すべて",
+      "unprocessed": "未処理",
+      "processed": "処理済み"
+    },
+    "noNews": "ニュースがありません",
+    "newBadge": "新着",
+    "content": "内容",
+    "technique": "攻撃手法",
+    "aiSummary": "AI要約",
+    "viewOriginal": "元記事を見る",
+    "collapse": "閉じる",
+    "expand": "詳細",
+    "table": {
+      "title": "タイトル",
+      "source": "ソース",
+      "amount": "被害額",
+      "chain": "チェーン",
+      "date": "日付",
+      "status": "ステータス",
+      "actions": "アクション"
+    },
+    "processed": "処理済み",
+    "unprocessed": "未処理",
+    "createPost": "投稿作成",
+    "creating": "作成中...",
+    "postCreated": "投稿が作成されました！",
+    "postCreateFailed": "投稿の作成に失敗: ",
+    "postCreateError": "投稿の作成中にエラーが発生しました。",
+    "delete": "削除",
+    "confirmDelete": "このニュースを削除しますか？"
+  },
+  "posts": {
+    "title": "投稿",
+    "subtitle": "生成されたX投稿の管理",
+    "tabs": {
+      "queue": "キュー",
+      "history": "履歴"
+    },
+    "noQueue": "キューに投稿がありません",
+    "noHistory": "投稿履歴がありません",
+    "publishNow": "今すぐ公開",
+    "publishing": "公開中...",
+    "published": "投稿が公開されました！",
+    "publishFailed": "公開に失敗: ",
+    "publishError": "公開中にエラーが発生しました。",
+    "retry": "再試行",
+    "retrying": "再試行中...",
+    "error": "エラー: ",
+    "scheduledFor": "予定: ",
+    "postedAt": "公開: ",
+    "viewTweet": "ツイートを見る",
+    "edit": "編集",
+    "delete": "削除",
+    "confirmDelete": "この投稿を削除しますか？",
+    "status": {
+      "draft": "下書き",
+      "scheduled": "予約済み",
+      "posted": "公開済み",
+      "failed": "失敗"
+    }
+  },
+  "sessions": {
+    "title": "セッション",
+    "subtitle": "異なるニュースソースで複数のTwitterアカウントを管理",
+    "newSession": "新規セッション",
+    "editSession": "セッション編集",
+    "addSession": "セッション追加",
+    "createSession": "セッション作成",
+    "noSessions": "まだセッションがありません。最初のセッションを作成して始めましょう。",
+    "sources": "ソース",
+    "pending": "保留中",
+    "posted": "投稿済み",
+    "testConnection": "接続テスト",
+    "disable": "無効化",
+    "enable": "有効化",
+    "edit": "編集",
+    "delete": "削除",
+    "confirmDelete": "このセッションを削除しますか？ソースの割り当てが解除されます。",
+    "manageSources": "ソース管理",
+    "assignedSources": "割り当て済みソース",
+    "availableSources": "利用可能なソース",
+    "assign": "割り当て",
+    "unassign": "割り当て解除",
+    "noAssignedSources": "割り当てられたソースがありません",
+    "noAvailableSources": "利用可能なソースがありません",
+    "schedule": {
+      "postsEvery": "毎",
+      "days": "日ごとに投稿",
+      "at": "時刻:"
+    },
+    "form": {
+      "sessionName": "セッション名",
+      "description": "説明",
+      "descriptionPlaceholder": "任意",
+      "twitterCredentials": "Twitter認証情報",
+      "apiKey": "APIキー",
+      "apiSecret": "APIシークレット",
+      "accessToken": "アクセストークン",
+      "accessTokenSecret": "アクセストークンシークレット",
+      "postingSchedule": "投稿スケジュール",
+      "postEveryDays": "投稿間隔（日）",
+      "postTime": "投稿時刻",
+      "saveChanges": "変更を保存"
+    },
+    "cancel": "キャンセル",
+    "close": "閉じる"
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "アプリ設定とAPIキー管理",
+    "save": "保存",
+    "saving": "保存中...",
+    "saved": "設定が保存されました",
+    "saveFailed": "設定の保存に失敗しました",
+    "sections": {
+      "apiKeys": "APIキー",
+      "schedule": "スケジュール設定",
+      "sources": "ニュースソース",
+      "templates": "AIプロンプトテンプレート",
+      "appearance": "外観"
+    },
+    "openai": {
+      "apiKey": "OpenAI APIキー",
+      "test": "テスト",
+      "testing": "テスト中..."
+    },
+    "twitter": {
+      "title": "Twitter API",
+      "authType": "認証方式",
+      "oauth1": "OAuth 1.0a（ユーザーコンテキスト）",
+      "oauth2": "OAuth 2.0（ユーザーコンテキスト - PKCE）",
+      "apiKey": "APIキー（Consumer Key）",
+      "apiSecret": "APIシークレット（Consumer Secret）",
+      "accessToken": "アクセストークン",
+      "accessTokenSecret": "アクセストークンシークレット",
+      "clientId": "Client ID",
+      "clientSecret": "Client Secret（パブリッククライアントはオプション）",
+      "testConnection": "接続テスト",
+      "oauth1Desc": "OAuth 1.0a: ユーザーコンテキストでツイート投稿可能。API Key/Secretとアクセストークンが必要。",
+      "oauth2Desc": "OAuth 2.0 PKCE: ユーザー認証後にツイート投稿可能。ブラウザでTwitterにログインしてアプリを許可。",
+      "oauth2Status": "認証状態",
+      "connectedAs": "{{username}}として接続中",
+      "notAuthorized": "未接続。認証ボタンをクリックしてTwitterアカウントを接続してください。",
+      "authorize": "認証する",
+      "disconnect": "接続解除",
+      "confirmRevoke": "Twitter接続を解除しますか？",
+      "oauth2Success": "@{{username}}への接続に成功しました！",
+      "oauth2Failed": "OAuth 2.0認証に失敗しました"
+    },
+    "schedule": {
+      "newsInterval": "ニュース収集間隔（時間）",
+      "postingInterval": "投稿間隔（日）",
+      "postingTime": "投稿時刻"
+    },
+    "appearance": {
+      "language": "言語",
+      "theme": "テーマ",
+      "dark": "ダーク",
+      "light": "ライト"
+    },
+    "sources": {
+      "enable": "有効化",
+      "disable": "無効化",
+      "delete": "削除",
+      "confirmDelete": "このソースを削除しますか？"
+    },
+    "templates": {
+      "summary": "要約",
+      "image": "画像",
+      "default": "デフォルト"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "close": "閉じる",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "元に戻す"
+  }
+}

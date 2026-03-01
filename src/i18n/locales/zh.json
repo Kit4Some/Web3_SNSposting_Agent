@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "Web3安全新闻代理"
+  },
+  "nav": {
+    "dashboard": "仪表板",
+    "news": "新闻",
+    "posts": "帖子",
+    "sessions": "会话",
+    "settings": "设置"
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "subtitle": "新闻和发布状态概览",
+    "stats": {
+      "totalNews": "总新闻",
+      "unprocessedNews": "未处理",
+      "scheduledPosts": "已安排",
+      "postedCount": "已发布"
+    },
+    "quickActions": "快速操作",
+    "collectNews": "收集新闻",
+    "collectingNews": "收集中...",
+    "createPost": "创建帖子",
+    "recentNews": "最新新闻",
+    "noNews": "尚未收集到新闻",
+    "viewAll": "查看全部"
+  },
+  "news": {
+    "title": "新闻",
+    "subtitle": "收集的Web3安全新闻",
+    "collectAll": "收集新闻",
+    "collecting": "收集中...",
+    "collectNews": "收集新闻",
+    "filters": {
+      "all": "全部",
+      "unprocessed": "未处理",
+      "processed": "已处理"
+    },
+    "noNews": "没有新闻",
+    "newBadge": "新",
+    "content": "内容",
+    "technique": "攻击技术",
+    "aiSummary": "AI摘要",
+    "viewOriginal": "查看原文",
+    "collapse": "收起",
+    "expand": "详情",
+    "table": {
+      "title": "标题",
+      "source": "来源",
+      "amount": "损失金额",
+      "chain": "链",
+      "date": "日期",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "processed": "已处理",
+    "unprocessed": "未处理",
+    "createPost": "创建帖子",
+    "creating": "创建中...",
+    "postCreated": "帖子已创建！",
+    "postCreateFailed": "创建帖子失败: ",
+    "postCreateError": "创建帖子时发生错误。",
+    "delete": "删除",
+    "confirmDelete": "确定要删除此新闻吗？"
+  },
+  "posts": {
+    "title": "帖子",
+    "subtitle": "管理生成的X帖子",
+    "tabs": {
+      "queue": "队列",
+      "history": "历史"
+    },
+    "noQueue": "队列中没有帖子",
+    "noHistory": "没有发布历史",
+    "publishNow": "立即发布",
+    "publishing": "发布中...",
+    "published": "帖子已发布！",
+    "publishFailed": "发布失败: ",
+    "publishError": "发布时发生错误。",
+    "retry": "重试",
+    "retrying": "重试中...",
+    "error": "错误: ",
+    "scheduledFor": "预定: ",
+    "postedAt": "发布: ",
+    "viewTweet": "查看推文",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirmDelete": "确定要删除此帖子吗？",
+    "status": {
+      "draft": "草稿",
+      "scheduled": "已安排",
+      "posted": "已发布",
+      "failed": "失败"
+    }
+  },
+  "sessions": {
+    "title": "会话",
+    "subtitle": "使用不同新闻来源管理多个Twitter账户",
+    "newSession": "新建会话",
+    "editSession": "编辑会话",
+    "addSession": "添加会话",
+    "createSession": "创建会话",
+    "noSessions": "还没有会话。创建您的第一个会话开始吧。",
+    "sources": "来源",
+    "pending": "待处理",
+    "posted": "已发布",
+    "testConnection": "测试连接",
+    "disable": "禁用",
+    "enable": "启用",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirmDelete": "确定要删除此会话吗？来源将被取消分配。",
+    "manageSources": "管理来源",
+    "assignedSources": "已分配来源",
+    "availableSources": "可用来源",
+    "assign": "分配",
+    "unassign": "取消分配",
+    "noAssignedSources": "没有分配的来源",
+    "noAvailableSources": "没有可用的来源",
+    "schedule": {
+      "postsEvery": "每",
+      "days": "天发布一次",
+      "at": "时间:"
+    },
+    "form": {
+      "sessionName": "会话名称",
+      "description": "描述",
+      "descriptionPlaceholder": "可选",
+      "twitterCredentials": "Twitter凭据",
+      "apiKey": "API密钥",
+      "apiSecret": "API密钥",
+      "accessToken": "访问令牌",
+      "accessTokenSecret": "访问令牌密钥",
+      "postingSchedule": "发布计划",
+      "postEveryDays": "发布间隔（天）",
+      "postTime": "发布时间",
+      "saveChanges": "保存更改"
+    },
+    "cancel": "取消",
+    "close": "关闭"
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "应用设置和API密钥管理",
+    "save": "保存",
+    "saving": "保存中...",
+    "saved": "设置已保存",
+    "saveFailed": "保存设置失败",
+    "sections": {
+      "apiKeys": "API密钥",
+      "schedule": "计划设置",
+      "sources": "新闻来源",
+      "templates": "AI提示模板",
+      "appearance": "外观"
+    },
+    "openai": {
+      "apiKey": "OpenAI API密钥",
+      "test": "测试",
+      "testing": "测试中..."
+    },
+    "twitter": {
+      "title": "Twitter API",
+      "authType": "认证方式",
+      "oauth1": "OAuth 1.0a（用户上下文）",
+      "oauth2": "OAuth 2.0（用户上下文 - PKCE）",
+      "apiKey": "API密钥（Consumer Key）",
+      "apiSecret": "API密钥（Consumer Secret）",
+      "accessToken": "访问令牌",
+      "accessTokenSecret": "访问令牌密钥",
+      "clientId": "Client ID",
+      "clientSecret": "Client Secret（公共客户端可选）",
+      "testConnection": "测试连接",
+      "oauth1Desc": "OAuth 1.0a: 可以用户上下文发布推文。需要API Key/Secret和访问令牌。",
+      "oauth2Desc": "OAuth 2.0 PKCE: 用户授权后可发布推文。通过浏览器登录Twitter并授权应用。",
+      "oauth2Status": "授权状态",
+      "connectedAs": "已连接为 {{username}}",
+      "notAuthorized": "未连接。点击授权按钮连接您的Twitter账户。",
+      "authorize": "授权",
+      "disconnect": "断开连接",
+      "confirmRevoke": "确定要断开Twitter连接吗？",
+      "oauth2Success": "成功连接到 @{{username}}！",
+      "oauth2Failed": "OAuth 2.0 授权失败"
+    },
+    "schedule": {
+      "newsInterval": "新闻收集间隔（小时）",
+      "postingInterval": "发布间隔（天）",
+      "postingTime": "发布时间"
+    },
+    "appearance": {
+      "language": "语言",
+      "theme": "主题",
+      "dark": "深色",
+      "light": "浅色"
+    },
+    "sources": {
+      "enable": "启用",
+      "disable": "禁用",
+      "delete": "删除",
+      "confirmDelete": "确定要删除此来源吗？"
+    },
+    "templates": {
+      "summary": "摘要",
+      "image": "图片",
+      "default": "默认"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "还原"
+  }
+}

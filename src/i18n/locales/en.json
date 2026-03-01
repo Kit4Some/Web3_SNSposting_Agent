@@ -1,0 +1,219 @@
+{
+  "app": {
+    "name": "Web3 Security News Agent"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "news": "News",
+    "posts": "Posts",
+    "sessions": "Sessions",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of news and posting status",
+    "stats": {
+      "totalNews": "Total News",
+      "unprocessedNews": "Unprocessed",
+      "scheduledPosts": "Scheduled",
+      "postedCount": "Posted"
+    },
+    "quickActions": "Quick Actions",
+    "collectNews": "Collect News",
+    "collectingNews": "Collecting...",
+    "createPost": "Create Post",
+    "recentNews": "Recent News",
+    "noNews": "No news collected yet",
+    "viewAll": "View All"
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Collected Web3 security news",
+    "collectAll": "Collect News",
+    "collecting": "Collecting...",
+    "collectNews": "Collect News",
+    "filters": {
+      "all": "All",
+      "unprocessed": "Unprocessed",
+      "processed": "Processed"
+    },
+    "noNews": "No news items found",
+    "newBadge": "New",
+    "content": "Content",
+    "technique": "Attack Technique",
+    "aiSummary": "AI Summary",
+    "viewOriginal": "View Original",
+    "collapse": "Collapse",
+    "expand": "Details",
+    "table": {
+      "title": "Title",
+      "source": "Source",
+      "amount": "Amount",
+      "chain": "Chain",
+      "date": "Date",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "processed": "Processed",
+    "unprocessed": "Unprocessed",
+    "createPost": "Create Post",
+    "creating": "Creating...",
+    "postCreated": "Post created successfully!",
+    "postCreateFailed": "Failed to create post: ",
+    "postCreateError": "An error occurred while creating the post.",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this news item?"
+  },
+  "posts": {
+    "title": "Posts",
+    "subtitle": "Manage generated X posts",
+    "tabs": {
+      "queue": "Queue",
+      "history": "History"
+    },
+    "noQueue": "No posts in queue",
+    "noHistory": "No posted history",
+    "publishNow": "Publish Now",
+    "publishing": "Publishing...",
+    "published": "Post published successfully!",
+    "publishFailed": "Publish failed: ",
+    "publishError": "An error occurred while publishing.",
+    "retry": "Retry",
+    "retrying": "Retrying...",
+    "error": "Error: ",
+    "scheduledFor": "Scheduled: ",
+    "postedAt": "Posted: ",
+    "viewTweet": "View Tweet",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this post?",
+    "status": {
+      "draft": "Draft",
+      "scheduled": "Scheduled",
+      "posted": "Posted",
+      "failed": "Failed"
+    }
+  },
+  "sessions": {
+    "title": "Sessions",
+    "subtitle": "Manage multiple Twitter accounts with different news sources",
+    "newSession": "New Session",
+    "editSession": "Edit Session",
+    "addSession": "Add Session",
+    "createSession": "Create Session",
+    "noSessions": "No sessions yet. Create your first session to get started.",
+    "sources": "Sources",
+    "pending": "Pending",
+    "posted": "Posted",
+    "testConnection": "Test Connection",
+    "disable": "Disable",
+    "enable": "Enable",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this session? Sources will be unassigned.",
+    "manageSources": "Manage Sources",
+    "assignedSources": "Assigned Sources",
+    "availableSources": "Available Sources",
+    "assign": "Assign",
+    "unassign": "Unassign",
+    "noAssignedSources": "No sources assigned",
+    "noAvailableSources": "No unassigned sources",
+    "schedule": {
+      "postsEvery": "Posts every",
+      "days": "day(s)",
+      "at": "at"
+    },
+    "form": {
+      "sessionName": "Session Name",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description",
+      "twitterCredentials": "Twitter Credentials",
+      "apiKey": "API Key",
+      "apiSecret": "API Secret",
+      "accessToken": "Access Token",
+      "accessTokenSecret": "Access Token Secret",
+      "postingSchedule": "Posting Schedule",
+      "postEveryDays": "Post Every (days)",
+      "postTime": "Post Time",
+      "saveChanges": "Save Changes"
+    },
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "App settings and API key management",
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Settings saved successfully",
+    "saveFailed": "Failed to save settings",
+    "sections": {
+      "apiKeys": "API Keys",
+      "schedule": "Schedule Settings",
+      "sources": "News Sources",
+      "templates": "AI Prompt Templates",
+      "appearance": "Appearance"
+    },
+    "openai": {
+      "apiKey": "OpenAI API Key",
+      "test": "Test",
+      "testing": "Testing..."
+    },
+    "twitter": {
+      "title": "Twitter API",
+      "authType": "Authentication Type",
+      "oauth1": "OAuth 1.0a (User Context)",
+      "oauth2": "OAuth 2.0 (User Context - PKCE)",
+      "apiKey": "API Key (Consumer Key)",
+      "apiSecret": "API Secret (Consumer Secret)",
+      "accessToken": "Access Token",
+      "accessTokenSecret": "Access Token Secret",
+      "clientId": "Client ID",
+      "clientSecret": "Client Secret (optional for public clients)",
+      "testConnection": "Test Connection",
+      "oauth1Desc": "OAuth 1.0a: Can post tweets with user context. Requires API Key/Secret and Access Token.",
+      "oauth2Desc": "OAuth 2.0 PKCE: Can post tweets after user authorization. Login via browser and grant app permissions.",
+      "oauth2Status": "Authorization Status",
+      "connectedAs": "Connected as {{username}}",
+      "notAuthorized": "Not connected. Click Authorize to connect your Twitter account.",
+      "authorize": "Authorize",
+      "disconnect": "Disconnect",
+      "confirmRevoke": "Are you sure you want to disconnect your Twitter account?",
+      "oauth2Success": "Successfully connected to @{{username}}!",
+      "oauth2Failed": "OAuth 2.0 authorization failed"
+    },
+    "schedule": {
+      "newsInterval": "News Collection Interval (hours)",
+      "postingInterval": "Posting Interval (days)",
+      "postingTime": "Posting Time"
+    },
+    "appearance": {
+      "language": "Language",
+      "theme": "Theme",
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "sources": {
+      "enable": "Enable",
+      "disable": "Disable",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this source?"
+    },
+    "templates": {
+      "summary": "Summary",
+      "image": "Image",
+      "default": "Default"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "restore": "Restore"
+  }
+}
